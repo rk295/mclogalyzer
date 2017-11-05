@@ -26,8 +26,10 @@ import re
 import sys
 import time
 
-import jinja2
+reload(sys)
+sys.setdefaultencoding('utf8')
 
+import jinja2
 
 REGEX_IP = "(\d+)\.(\d+)\.(\d+)\.(\d+)"
 
